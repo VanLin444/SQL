@@ -279,7 +279,7 @@ $connect = mysqli_connect('localhost','root','root','worldninja','8889');
 if (!$connect){
     die("Ошибка подключения к БД...<br>");
 } else
-echo "Connected to DataBase - worldninja<br>";
+echo "Connected to DataBase - worldninja <br>";
 
 /*
 // Создание таблицы Ninja в базе данных worldninja, если таковой таблицы ещё не существует
