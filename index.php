@@ -1,5 +1,4 @@
 <?php
-<?php
 $connect = mysqli_connect('localhost','root','root','films','8889');
 if (!$connect){
     die("Ошибка подключения к БД...<br>");
@@ -301,6 +300,4 @@ echo '</pre>';
 */
 
 mysqli_close($connect);
-
-
 ?>
