@@ -282,7 +282,7 @@ if (!$connect){
 echo "Connected to DataBase - worldninja<br>";
 
 /*
-// Создание таблицы Ninja в базе данных worldninja, если таковой таблицы ещё нет
+// Создание таблицы Ninja в базе данных worldninja, если таковой таблицы ещё не существует
 //$worldnin = mysqli_query($connect, "CREATE TABLE IF NOT EXISTS Ninja ( id int, name varchar(50), rank varchar(5), village varchar(50), PRIMARY KEY (id))");
 // Изменение свойств столбца rank 
 //$worldnin = mysqli_query($connect, "ALTER TABLE ninja MODIFY COLUMN rank varchar(5)");
